@@ -4,9 +4,9 @@ import imutils
 import os
 import matplotlib.pyplot as plt
 
-os.chdir('F:/Users/K-GIFT/Desktop/pi+EV3')
-#cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('4.mp4')
+#os.chdir('F:/Users/K-GIFT/Desktop/pi+EV3')
+cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture('4.mp4')
 fps = cap.get(cv2.CAP_PROP_FPS)
 
 #param#-------------------------------------
@@ -26,8 +26,9 @@ def resizeH(img,high):
 while(True):
     # 0) read image, preprocess
     ret, frame = cap.read()
+    frame = imutils.resize(frame, width=300)
     original = frame.copy()
-    frame = cv2.bilateralFilter(frame, 20, 50, 100)#crucial
+    #frame = cv2.bilateralFilter(frame, 20, 50, 100)#crucial
     #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     #gray = cv2.bilateralFilter(gray, 20, 50, 100)
     #bw = cv2.threshold(gray, 120, 255, cv2.THRESH_BINARY)[1]
