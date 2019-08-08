@@ -12,15 +12,15 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 ## Software
 1. [EV3 software](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) for control robot like a child! It looks kiddy and can handle multi-tasks like a pro! 
 1. [Pyzo](https://pyzo.org/start.html) for implement python in pi.
-1. [optional][Teanviewer](https://www.teamviewer.com) for GUI remote
+1. [optional][Teanviewer](https://www.teamviewer.com) for GUI remote. Yeh, I'm a noob who love GUI. 
 
 ## Pi settup
 You need a day for more for setting up the pi and I'm not kidding.
 * First we need [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) for pi's os.
-* After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. However, I recoment using 2 core of cpu insted of 4 for making openCV (type make -j2 insted of make -j4). Trust me or your pi stop working!
+* After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. For making opevCV process, I recoment using 2 core of cpu insted of 4 (type `make -j2` insted of `make -j4`). Trust me or your pi stop working!
 * We also need to enable Serial Port in interface section in pi configuration.
-* [optional] A software for connect bluetooth
-* [optional] if wifi in your place using wpa2-enterprise, open terminal then type `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` and add the following code at the end of the file.
+* [optional] A software for connect bluetooth. I use
+* [optional] if wifi in your place using wpa2-enterprise, type `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` then add the following code at the end of the file.
 ```
 network={
 	ssid="XXXXX"
@@ -35,5 +35,4 @@ network={
 	phase2="MSCHAPV2"
 } 
 ```
-change XXXXX to yours. 
-[these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
+change XXXXX to yours. By the way, [these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
