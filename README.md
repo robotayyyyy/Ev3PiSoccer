@@ -18,7 +18,7 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 You need a day for more for setting up the pi and I'm not kidding.
 * First we need [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) for pi's os.
 * After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. For making opevCV process, I recoment using 2 core of cpu insted of 4 (type `make -j2` insted of `make -j4`). Trust me or your pi stop working!
-* We also need to enable Serial Port in interface section in pi configuration.![look!](./img/0.PNG)
+* We also need to enable Serial Port in interface section in pi configuration.![](./img/0.PNG)
 * A software for connect bluetooth. I recommend Bluetooth Manager. Open terminal then type `sudo apt-get install bluetooth bluez blueman`
 * [optional] if wifi in your place using WPA2-enterprise, type `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` then add the following code at the end of the file.
 ```
