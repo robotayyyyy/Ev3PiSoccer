@@ -47,6 +47,9 @@ One can connect Raspberry pi to EV3 by bluetooth as following instruction.
 
 ![](./img/2.PNG)
 
+## Use it
+Just start **ballDetect.py** on your pi and run **evpi.ev3** on your EV3
+
 * Now switch to your EV3, accept it.
 
 ![](./img/3.PNG)
