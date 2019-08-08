@@ -1,5 +1,4 @@
 # Ev3PiSoccer
-soccer bot from Lego EV3 and Raspberry pi
 
 ## Propose
 I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. My Idea is using the Raspberry pi for immage processing task and send the message to the EV3 robot via bluetooth. 
@@ -11,8 +10,8 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 1. Lego EV3 
 
 ## Software
-1. EV3 software [download](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
-1.
+1. [EV3 software](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) for control robot like a child! It looks kiddy and can handle multi-tasks like a pro! 
+1. [pyzo](https://pyzo.org/start.html) for implement python in pi.
 
 ## Pi settup
 
