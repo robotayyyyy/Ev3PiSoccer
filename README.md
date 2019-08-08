@@ -49,11 +49,11 @@ One can connect Raspberry pi to EV3 by bluetooth as following instruction.
 
 * Now switch to your EV3, accept it.
 
-![](./img/3.jpg)
+![](./img/3.PNG)
 
 * Enter pin code on EV3.
 
-![](./img/4.jpg)
+![](./img/4.PNG)
 
 * Enter pin code on your pi.
 
