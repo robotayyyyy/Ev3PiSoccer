@@ -1,7 +1,9 @@
 # Ev3PiSoccer
 
 ## Propose
-I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. My Idea is using the Raspberry pi for immage processing task and send the message to the EV3 robot via bluetooth. 
+I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. My Idea is using the Raspberry pi for immage processing task and send the message to the EV3 robot via bluetooth. The result as follows.
+
+![![](./img/9.PNG)](https://youtu.be/1NdWqt1gIag)
 
 ## Equipment
 1. Raspberry pi (for this work, I used pi3 modelB)
@@ -47,9 +49,6 @@ One can connect Raspberry pi to EV3 by bluetooth as following instruction.
 
 ![](./img/2.PNG)
 
-## Use it
-Just start **ballDetect.py** on your pi and run **evpi.ev3** on your EV3
-
 * Now switch to your EV3, accept it.
 
 ![](./img/3.PNG)
@@ -73,3 +72,6 @@ Just start **ballDetect.py** on your pi and run **evpi.ev3** on your EV3
 * Watch for the address of device. For this case, it's **/dev/rfcomm0**.
 
 ![](./img/8.PNG)
+
+## Use it
+Just start **ballDetect.py** on your pi and run **evpi.ev3** on your EV3
