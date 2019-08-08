@@ -2,11 +2,13 @@
 soccer bot from Lego EV3 and Raspberry pi
 
 ## Propose
-I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. 
-
-## Prerequisite
-Things that needed to prepare are Raspberry pi and its battery, webcam and EV3 set.
+I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. My Idea is using the Raspberry pi for immage processing task and send the message to the EV3 robot via bluetooth. 
 
 ## Equipment
+1. Raspberry pi (for this work, I used pi3 modelB)
+  1. webcam
+  1. battery
+1. Lego EV3 
 
+### Software
 ## Pi settup
