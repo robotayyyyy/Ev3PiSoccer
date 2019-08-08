@@ -19,7 +19,7 @@ You need a day for more for setting up the pi and I'm not kidding.
 * First we need [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) for pi's os.
 * After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. For making opevCV process, I recoment using 2 core of cpu insted of 4 (type `make -j2` insted of `make -j4`). Trust me or your pi stop working!
 * We also need to enable Serial Port in interface section in pi configuration.![](./img/0.PNG)
-* A software for connect bluetooth. I recommend Bluetooth Manager. Open terminal then type `sudo apt-get install bluetooth bluez blueman`
+* A software for connect bluetooth. I recommend **Bluetooth Manager**. Open terminal then type `sudo apt-get install bluetooth bluez blueman`
 * [optional] if wifi in your place using WPA2-enterprise, type `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` then add the following code at the end of the file.
 ```
 network={
@@ -38,12 +38,12 @@ network={
 change XXXXX to yours. By the way, [these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
 
 ## Connecting pi to EV3
-One can connect Raspberry pi to EV3 by bluetooth as following instruction
-1. ![](./img/1.PNG)
-1. ![](./img/2.PNG)
-1. ![](./img/3.PNG)
-1. ![](./img/4.PNG)
-1. ![](./img/5.PNG)
-1. ![](./img/6.PNG)
-1. ![](./img/7.PNG)
-1. ![](./img/8.PNG)
+One can connect Raspberry pi to EV3 by bluetooth as following instruction.
+1. I added a device by default bluetooth app **not the one that you just installed**. ![](./img/1.PNG)
+1. Select your EV3. For me, I named it **SoccerBot**![](./img/2.PNG)
+1. Now switch to your EV3, accept it![](./img/3.PNG)
+1. Enter pin code![](./img/4.PNG)
+1. Enter pin code on your pi![](./img/5.PNG)
+1. Now the devices are connected. It mean they know each other but still no process![](./img/6.PNG)
+1. To start process, open **Bluetooth Manager** (yeh the one that you just installed) then right click at your device and click Serial Port![](./img/7.PNG)
+1. Watch for the address of device. For this case, it's **/dev/rfcomm0**![](./img/8.PNG)
