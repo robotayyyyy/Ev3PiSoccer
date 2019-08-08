@@ -40,9 +40,13 @@ change XXXXX to yours. By the way, [these guys](/etc/wpa_supplicant/wpa_supplica
 ## Connecting pi to EV3
 One can connect Raspberry pi to EV3 by bluetooth as following instruction.
 1. I added a device by default bluetooth app **not the one that you just installed**. 
+
 ![](./img/1.PNG)
+
 1. Select your EV3. For me, I named it **SoccerBot**.
+
 ![](./img/2.PNG)
+
 1. Now switch to your EV3, accept it.
 ![](./img/3.PNG)
 1. Enter pin code on EV3.
