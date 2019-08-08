@@ -14,5 +14,5 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 1. [Pyzo](https://pyzo.org/start.html) for implement python in pi.
 
 ## Pi settup
-*You need a day for more for setting up the pi and I'm not kidding. First we need [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) for pi's os.
-*After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. However, I recoment using 2 core of cpu insted of 4 for making openCV(type make -j2 insted of make -j4).
+* You need a day for more for setting up the pi and I'm not kidding. First we need [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) for pi's os.
+* After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. However, I recoment using 2 core of cpu insted of 4 for making openCV(type make -j2 insted of make -j4).
