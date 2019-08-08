@@ -6,8 +6,8 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 
 ## Equipment
 1. Raspberry pi (for this work, I used pi3 modelB)
-  1. webcam
-  1. battery
+    1. webcam
+    1. pi's battery
 1. Lego EV3 
 
 ### Software
