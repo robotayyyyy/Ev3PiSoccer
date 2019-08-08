@@ -36,3 +36,14 @@ network={
 } 
 ```
 change XXXXX to yours. By the way, [these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
+
+## Connecting pi to EV3
+One can connect Raspberry pi to EV3 by bluetooth as following instruction
+1. ![](./img/1.PNG)
+1. ![](./img/2.PNG)
+1. ![](./img/3.PNG)
+1. ![](./img/4.PNG)
+1. ![](./img/5.PNG)
+1. ![](./img/6.PNG)
+1. ![](./img/7.PNG)
+1. ![](./img/8.PNG)
