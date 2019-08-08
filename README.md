@@ -20,13 +20,13 @@ You need a day for more for setting up the pi and I'm not kidding.
 * After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. However, I recoment using 2 core of cpu insted of 4 for making openCV (type make -j2 insted of make -j4). Trust me or your pi stop working!
 * We also need to enable Serial Port in interface section in pi configuration.
 * [optional] A software for connect bluetooth
-* [optional] if wifi in your place using wpa2-enterprise, please follow instruction of these guy 
+* [optional] if wifi in your place using wpa2-enterprise, open terminal then type `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` and add the following code at the end of the file.
 ```
 network={
-	ssid="######"
+	ssid="XXXXX"
 	mode=0
-	identity="######"
-	password="######" 
+	identity="XXXXX"
+	password="XXXXX" 
 	key_mgmt=WPA-EAP
 	pairwise=CCMP TKIP
 	group=CCMP TKIP
@@ -35,3 +35,5 @@ network={
 	phase2="MSCHAPV2"
 } 
 ```
+change XXXXX to yours. 
+[these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
