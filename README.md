@@ -1,7 +1,7 @@
 # Ev3PiSoccer
 
 ## Propose
-I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. My Idea is using the Raspberry pi for immage processing task and send the message to the EV3 robot via bluetooth. The result as follows.
+I just wana adapt image processing to a simple robot with a casual task, put the ball to the goal. My Idea is using the Raspberry pi for image processing task and send the message to the EV3 robot via bluetooth. The result as follows.
 
 [![](./img/9.PNG)](https://youtu.be/1NdWqt1gIag)
 
