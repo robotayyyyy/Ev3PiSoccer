@@ -77,4 +77,4 @@ One can connect Raspberry pi to EV3 by bluetooth as following instruction.
 Just start **ballDetect.py** on your pi and run **evpi.ev3** on your EV3. The file **EV3BT** is from [Maksym Shyte](http://www.geekdroppings.com/2018/01/21/raspberry-pi-and-the-lego-ev3-connected-by-bluetooth/).
 
 ## Speacial thanks
-Thanks [Maksym Shyte](http://www.geekdroppings.com/2018/01/21/raspberry-pi-and-the-lego-ev3-connected-by-bluetooth/) and [this guy](https://www.hackster.io/KKE/raspberry-pi-lego-mindstorms-ev3-bluetooth-communication-aa42e2) who make my job a lot more easier :D
+Thanks [Maksym Shyte](http://www.geekdroppings.com/2018/01/21/raspberry-pi-and-the-lego-ev3-connected-by-bluetooth/) and [Koen Kempeneers](https://www.hackster.io/KKE/raspberry-pi-lego-mindstorms-ev3-bluetooth-communication-aa42e2) who make my job a lot more easier :D
