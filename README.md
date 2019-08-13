@@ -11,9 +11,8 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 1. webcam
 1. Lego EV3 
 
-## Software
+## Software on your PC
 1. [EV3 software](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) for control robot like a child! It looks kiddy and can handle multi-tasks like a pro! 
-1. [optional][Pyzo](https://pyzo.org/start.html) for implement python in pi.
 1. [optional][Teanviewer](https://www.teamviewer.com) for GUI remote. Yeh, I'm a noob who love GUI. 
 
 ## Pi settup
@@ -39,6 +38,7 @@ network={
 ```
 change XXXXX to yours. By the way, [these guys](https://www.raspberrypi.org/forums/viewtopic.php?t=44029) deserve a credit.
 * [optional] For installing teamviewer on pi, I recommend to follow these [instructions](https://pimylifeup.com/raspberry-pi-teamviewer/) 
+* [optional][Pyzo](https://pyzo.org/start.html) for implement python. In rasp pi just type `sudo apt-get pyzo`
 
 ## Connecting pi to EV3
 One can connect Raspberry pi to EV3 by bluetooth as following instruction.
