@@ -16,7 +16,7 @@ I just wana adapt image processing to a simple robot with a casual task, put the
 1. [optional][Teanviewer](https://www.teamviewer.com) for GUI remote. Yeh, I'm a noob who love GUI. 
 
 ## Pi settup
-You need a day for more for setting up the pi and I'm not kidding.
+You need a day or more for setting up the pi and I'm not kidding.
 * First we need [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) for pi's os.
 * After that we need [openCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/), please follow the instruction strictly. For making opevCV process, I recoment using 2 core of cpu insted of 4 (type `make -j2` insted of `make -j4`). Trust me or your pi stop working!
 * We also need to enable Serial Port in interface section in pi configuration.![](./img/0.PNG)
