@@ -37,7 +37,7 @@ network={
 	phase2="MSCHAPV2"
 } 
 ```
-change XXXXX to yours. By the way, [these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
+change XXXXX to yours. By the way, [these guys](https://www.raspberrypi.org/forums/viewtopic.php?t=44029) deserve a credit.
 * [optional] For installing teamviewer on pi, I recommend to follow these [instructions](https://pimylifeup.com/raspberry-pi-teamviewer/) 
 
 ## Connecting pi to EV3
