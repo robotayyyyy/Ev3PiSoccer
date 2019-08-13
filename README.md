@@ -38,7 +38,8 @@ network={
 } 
 ```
 change XXXXX to yours. By the way, [these guys](/etc/wpa_supplicant/wpa_supplicant.conf) deserve a credit.
-* [optional][TeamViewer], for installation teamviewer on pi, I recommend to follow these [instructions](https://pimylifeup.com/raspberry-pi-teamviewer/) 
+* [optional] For installing teamviewer on pi, I recommend to follow these [instructions](https://pimylifeup.com/raspberry-pi-teamviewer/) 
+
 ## Connecting pi to EV3
 One can connect Raspberry pi to EV3 by bluetooth as following instruction.
 * I added a device by default bluetooth app **not the one that you just installed**. 
