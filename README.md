@@ -37,7 +37,7 @@ network={
 } 
 ```
 change XXXXX to yours. By the way, [these guys](https://www.raspberrypi.org/forums/viewtopic.php?t=44029) deserve a credit.
-* [optional] For installing teamviewer on pi, I recommend to follow these [instructions](https://pimylifeup.com/raspberry-pi-teamviewer/) 
+* [optional] [Teamviewer](https://www.teamviewer.com) for remote with GUI. For installation, I recommend to follow these [instructions](https://pimylifeup.com/raspberry-pi-teamviewer/) 
 * [optional][Pyzo](https://pyzo.org/start.html) for implement python. In rasp pi just type `sudo apt-get pyzo`
 
 ## Connecting pi to EV3
